@@ -22,7 +22,7 @@ const Footer = () => {
     setIsLoading(true);
 
     const { data } = await axios.post(
-      "http://localhost:5000/send",
+      "https://updated-portfolio-9kok.onrender.com/send",
       {
         name: userName,
         message
