@@ -1,0 +1,86 @@
+import { images } from "../constants";
+
+const Projects = [
+  {
+    id: 1,
+    tags: ["Frontend", "All"],
+    image: images.project.movix,
+    link1: "https://github.com/bhopusinha/BMovix",
+    link2: "https://b-movix-bhopusinha.vercel.app/",
+    title: "B-Movix",
+  },
+  {
+    id: 2,
+    tags: ["Mearn App", "All"],
+    image: images.project.ecommerce,
+    link1: "https://github.com/bhopusinha/BCommerce",
+    link2: "https://bscommerce-site.onrender.com",
+    title: "B-Commerce Application",
+  },
+  {
+    id: 3,
+    tags: ["Backend", "All"],
+    image: images.project.iicbackend,
+    link1: "https://github.com/bhopusinha/BCommerce/tree/master/backend",
+    link2: "https://github.com/bhopusinha/BCommerce/tree/master/backend",
+    title: "ECOMMERCE Backend",
+  },
+  {
+    id: 4,
+    tags: ["Backend", "All"],
+    image: images.project.codengeekBackend,
+    link1: "https://github.com/bhopusinha/food_delivery_mern/tree/main/backend",
+    link2: "https://github.com/bhopusinha/food_delivery_mern/tree/main/backend",
+    title: "Food-Delivery Backend",
+  },
+  {
+    id: 6,
+    tags: ["Frontend", "All"],
+    image: images.project.weather,
+    link1: "https://github.com/bhopusinha/weatherApp",
+    link2: "https://spiffy-cactus-a8163e.netlify.app/",
+    title: "Weather-App",
+  },
+  {
+    id: 7,
+    tags: ["Mearn App", "All"],
+    image: images.project.food,
+    link1: "https://github.com/bhopusinha/food_delivery_mern",
+    link2: "https://food-delivery-mern-frontend.onrender.com",
+    title: "Food-Delivery Application",
+  },
+  {
+    id: 8,
+    tags: ["Frontend", "All"],
+    image: images.project.getAge,
+    link1: "https://github.com/bhopusinha/Age-Counter",
+    link2: "https://vocal-arithmetic-f2226b.netlify.app/",
+    title: "Get-Age",
+  },
+  {
+    id: 9,
+    tags: ["Frontend", "All"],
+    image: images.project.admin,
+    link1: "https://github.com/bhopusinha/food_delivery_mern/tree/main/admin",
+    link2: "https://food-delivery-mern-1-t5v6.onrender.com/",
+    title: "Admin-Panel",
+  },
+  {
+    id: 10,
+    tags: ["Mearn App", "All"],
+    image: images.project.certificate,
+    link1: "https://github.com/bhopusinha/certificate-frontend",
+    link2: "https://certificate-frontend-nu.vercel.app/",
+    title: "Certificate-Generator-Assignment",
+  },
+  {
+    id: 11,
+    tags: ["Backend", "All"],
+    image: images.project.backend2,
+    link1: "https://github.com/bhopusinha/certificate-backend",
+    link2: "https://github.com/bhopusinha/certificate-backend",
+    title: "CERTIFICATE Backend",
+  },
+];
+
+export default Projects;
